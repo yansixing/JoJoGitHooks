@@ -20,7 +20,7 @@ if [ ! -d $hooksDir ]; then
     exit 0
 fi
 
-curl -fsSL https://raw.githubusercontent.com/yansixing/JoJoGitHooks/main/commit-msg >$dir/commit-msg
+curl -fsSL https://raw.githubusercontent.com/yansixing/JoJoGitHooks/main/commit-msg >$hooksDir/commit-msg
 echo "\033[31m保存commit-msg hooks成功\033[0m"
 
 if [ $# -ne 0 ]; then
