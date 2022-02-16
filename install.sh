@@ -21,7 +21,7 @@ if [ ! -d $hooksDir ]; then
 fi
 
 curl -fsSL https://raw.githubusercontent.com/yansixing/JoJoGitHooks/main/commit-msg >$hooksDir/commit-msg
-echo "\033[32m保存$dir/commit-msg hooks成功1\033[0m"
+echo "\033[32m保存$dir/commit-msg hooks成功\033[0m"
 
 if [ $# -ne 0 ]; then
     funcname="$1"
